@@ -64,6 +64,10 @@ header nav a:hover {
     cursor: pointer;
 }
 
+.button-menu:hover {
+    background-color: var(--purple);
+}
+
 .hero {
     min-height: 100vh;
     background: url("./Img/imgFundo.jpg") center 20%/ cover no-repeat;
@@ -150,6 +154,10 @@ header nav a:hover {
     margin-top: 10px;
 }
 
+.button-hero-card:hover {
+    background-color: var(--purple-dark);
+}
+
 .section-one {
     padding: 60px 40px;
     display: flex;
@@ -208,19 +216,160 @@ header nav a:hover {
     margin-bottom: 30px;
 }
 
-.card-info{
+.card-info {
     display: flex;
     justify-content: space-between;
 }
 
 .card-info span {
-     color: rgba(255, 255, 255, 0.7);
-     font-size: 14px;
-     text-transform: uppercase;
-     letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .card-info strong {
     font-size: 24px;
     color: var(--white);
+}
+
+.card-text {
+    max-width: 480px;
+}
+
+.card-text h2 {
+    color: var(--white);
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.card-text p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.7;
+    margin-bottom: 24px;
+
+}
+
+.card-text ul {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.card-text ul li {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    padding: 6px 0s;
+}
+
+.card-text ul li::before {
+    content: "✓";
+    color: var(--purple);
+    margin-right: 10px;
+}
+
+.button-card {
+    background-color: var(--purple);
+    display: inline-block;
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button-card:hover {
+    background-color: var(--purple-dark);
+}
+
+.section-two {
+    padding: 100px 40px;
+    text-align: center;
+    background: linear-gradient(135deg, var(--purple), var(--purple-dark));
+}
+
+.section-two h2 {
+    color: var(--white);
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.section-two p {
+    font-style: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+}
+
+.section-two .button-two {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--purple);
+    padding: 16px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-size: 700;
+    text-decoration: none;
+    transform: 0.5s;
+    cursor: pointer;
+}
+
+.section-two .button-two:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+    background-color: var(--dark);
+    padding: 60px 40px 30px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.logo-nubank-footer{
+    height: 22px;
+    margin: 20px;
+}
+
+.footer-content h4{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.footer-content a{
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-img {
+    flex: 2;
+}
+
+.footer-img p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
 }
