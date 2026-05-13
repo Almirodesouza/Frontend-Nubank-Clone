@@ -21,6 +21,10 @@ body {
     width: 35px;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 header {
     position: fixed;
     top: 0px;
@@ -333,12 +337,12 @@ header nav a:hover {
     gap: 60px;
 }
 
-.logo-nubank-footer{
+.logo-nubank-footer {
     height: 22px;
     margin: 20px;
 }
 
-.footer-content h4{
+.footer-content h4 {
     color: var(--white);
     font-size: 14px;
     font-weight: 700;
@@ -347,7 +351,7 @@ header nav a:hover {
     margin-bottom: 16px;
 }
 
-.footer-content a{
+.footer-content a {
     display: block;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
@@ -359,7 +363,7 @@ header nav a:hover {
     flex: 2;
 }
 
-.footer-img p{
+.footer-img p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
@@ -372,4 +376,56 @@ header nav a:hover {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
+}
+
+@media screen and (max-width: 784px) {
+
+    header nav {
+        display: none;
+        align-items: center;
+    }
+
+    .logo-Nubank {
+        order: 1;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 3;
+    }
+
+    .button-menu {
+        background-color: var(--purple-dark);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        order: 2;
+    }
+
+    .button-menu:hover {
+        background-color: var(--purple);
+    }
+
+    header nav.active {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.95);
+        position: fixed;
+        top: 64px;
+        left: 0;
+        right: 0;
+        padding: 20px 40px;
+        gap: 15px;
+        z-index: 100;
+    }
+
+    header nav.active a {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
 }
