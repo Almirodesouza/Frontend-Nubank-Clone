@@ -429,3 +429,122 @@ header nav a:hover {
     }
 
 }
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    header nav {
+        display: none;
+        align-items: center;
+    }
+
+    .logo-Nubank {
+        order: 1;
+    }
+
+    .button-menu {
+        order: 2;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 3;
+    }
+
+    .hero {
+        padding: 0 20px 60px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 0 10px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-card {
+        max-width: 100%;
+        padding: 24px;
+    }
+
+    .section-one {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .section-card {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 40px;
+    }
+
+    .credit-card {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+    }
+
+    .card-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .section-two {
+        padding: 60px 20px;
+    }
+
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .button-menu {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .button-hero-card {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .section-two h2 {
+        font-size: 28px;
+    }
+
+    .section-two p {
+        font-size: 16px;
+    }
+
+    .button-card {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
