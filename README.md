@@ -1,4 +1,4 @@
-# 💜 Copy Nubank — Landing Page
+# 💜 Frontend-Nubank-Clone — Landing Page
 
 Recriação da landing page do **Nubank** desenvolvida com HTML, CSS e JavaScript puro, como projeto de prática de front-end.
 
