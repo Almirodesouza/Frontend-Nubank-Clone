@@ -30,7 +30,7 @@ Por ser um projeto estático (sem dependências ou build), basta abrir o arquivo
 **Opção 1 — Abrir direto:**
 ```bash
 # Clone o repositório
-git clone https://github.com/Almirodesouza/copyNubank.git
+git clone https://github.com/Almirodesouza/Frontend-Nubank-Clone
 
 # Acesse a pasta
 cd copyNubank
@@ -46,7 +46,7 @@ cd copyNubank
 ---
 
 ## 📁 Estrutura de Arquivos
-copyNubank/
+Frontend-Nubank-Clone/
 
 ├── index.html      #   Estrutura principal da página
 
