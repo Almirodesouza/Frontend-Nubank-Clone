@@ -1,4 +1,4 @@
-# 💜 Frontend-Nubank-Clone — Landing Page
+# 💜 Frontend Nubank Clone — Landing Page
 
 Recriação da landing page do **Nubank** desenvolvida com HTML, CSS e JavaScript puro, como projeto de prática de front-end.
 
@@ -30,10 +30,10 @@ Por ser um projeto estático (sem dependências ou build), basta abrir o arquivo
 **Opção 1 — Abrir direto:**
 ```bash
 # Clone o repositório
-git clone https://github.com/Almirodesouza/Frontend-Nubank-Clone
+git clone https://github.com/Almirodesouza/frontend-nubank-clone.git
 
 # Acesse a pasta
-cd copyNubank
+cd frontend-nubank-clone
 
 # Abra o arquivo index.html no seu navegador
 ```
@@ -46,15 +46,20 @@ cd copyNubank
 ---
 
 ## 📁 Estrutura de Arquivos
-Frontend-Nubank-Clone/
+
+frontend-nubank-clone/
 
 ├── index.html      #   Estrutura principal da página
 
+
 ├── styles.css      #   Estilos e responsividade
+
 
 ├── script.js       #   Interatividade (menu hambúrguer, etc.)
 
+
 └── Img/            #   Imagens utilizadas (logo, etc.)
+
 
 ---
 
